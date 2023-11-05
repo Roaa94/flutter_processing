@@ -1,8 +1,5 @@
 name: Test project in a PR
-on:
-  pull_request:
-    branches:
-      - main
+on: [pull_request]
 jobs:
   test_mac:
     runs-on: macos-latest
